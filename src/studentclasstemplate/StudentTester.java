@@ -14,7 +14,7 @@ public class StudentTester {
     public static void main(String args[]){
     
         
-        StudentClassTemplate s1 = new StudentClassTemplate("Sujal Patel");
+        StudentClassTemplate s1 = new StudentClassTemplate("Sujal D Patel, swagy boi");
         //s1.setName("Sujal");
         StudentClassTemplate s2 = new StudentClassTemplate("Jee  boga" );
         //s2.setName("Jeel");
