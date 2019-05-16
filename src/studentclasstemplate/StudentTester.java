@@ -14,11 +14,11 @@ public class StudentTester {
     public static void main(String args[]){
     
         
-        StudentClassTemplate s1 = new StudentClassTemplate("Sujal");
+        StudentClassTemplate s1 = new StudentClassTemplate("Sujal Patel");
         //s1.setName("Sujal");
         StudentClassTemplate s2 = new StudentClassTemplate("Jeel");
         //s2.setName("Jeel");
-        StudentClassTemplate s3 = new StudentClassTemplate("Diya");
+        StudentClassTemplate s3 = new StudentClassTemplate("Diya aka Divya");
         //s3.setName("Jay");
         
         StudentClassTemplate[] list = new StudentClassTemplate[3];
