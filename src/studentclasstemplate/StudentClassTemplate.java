@@ -12,6 +12,15 @@ package studentclasstemplate;
 public class StudentClassTemplate {
 
     private String name;
+    private int Student_id;
+
+    public void setStudent_id(int Student_id) {
+        this.Student_id = Student_id;
+    }
+
+    public String getStudent_id() {
+        return Student_id;
+    }
     
     
     public StudentClassTemplate(){}
