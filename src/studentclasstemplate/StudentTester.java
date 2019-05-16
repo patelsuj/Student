@@ -16,7 +16,7 @@ public class StudentTester {
         
         StudentClassTemplate s1 = new StudentClassTemplate("Sujal Patel");
         //s1.setName("Sujal");
-        StudentClassTemplate s2 = new StudentClassTemplate("Jeel");
+        StudentClassTemplate s2 = new StudentClassTemplate("Jee  boga" );
         //s2.setName("Jeel");
         StudentClassTemplate s3 = new StudentClassTemplate("Diya aka Divya");
         //s3.setName("Jay");
