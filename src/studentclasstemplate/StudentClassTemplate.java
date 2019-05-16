@@ -13,22 +13,14 @@ public class StudentClassTemplate {
 
     private String name;
     private int Student_id;
-
-    public void setStudent_id(int Student_id) {
-        this.Student_id = Student_id;
-    }
-
-    public String getStudent_id() {
-        return Student_id;
-    }
-    
     
     public StudentClassTemplate(){}
 
               
-public StudentClassTemplate(String n){
+public StudentClassTemplate(String n,int sid){
 
-      this.name = n;         
+      this.name = n; 
+      this.Student_id=sid;
 }
  
    
@@ -43,6 +35,13 @@ public StudentClassTemplate(String n){
         this.name = name;
         return name;
          }
+      public void setStudent_id(int Student_id) {
+        this.Student_id = Student_id;
+    }
+
+    public String getStudent_id() {
+        return Student_id;
+    }
 }
      
        
