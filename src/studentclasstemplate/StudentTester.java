@@ -15,11 +15,11 @@ public class StudentTester {
     
         
         StudentClassTemplate s1 = new StudentClassTemplate("Sujal",2221);
-        //s1.setName("Sujal");
+        s1.setName("Sujal");
         StudentClassTemplate s2 = new StudentClassTemplate("Jeel",22 );
-        //s2.setName("Jeel");
+       s2.setName("Jeel");
         StudentClassTemplate s3 = new StudentClassTemplate("Divya D",9118);
-        //s3.setName("Jay");
+       s3.setName("Jay");
         
         StudentClassTemplate[] list = new StudentClassTemplate[3];
         list[0]= s1;
@@ -31,6 +31,6 @@ public class StudentTester {
         }
         
         
-        System.out.print("Get out Son of A Gun");
+       
     }
 }

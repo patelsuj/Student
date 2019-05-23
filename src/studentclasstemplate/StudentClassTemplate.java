@@ -13,6 +13,7 @@ public class StudentClassTemplate {
 
     private String name;
     private int Student_id;
+    private int MaxCourse;
     
     public StudentClassTemplate(){}
 
@@ -39,8 +40,22 @@ public StudentClassTemplate(String n,int sid){
         this.Student_id = Student_id;
     }
 
-    public String getStudent_id() {
+    public int getStudent_id() {
         return Student_id;
+    }
+
+    /**
+     * @return the MaxCourse
+     */
+    public int getMaxCourse() {
+        return MaxCourse;
+    }
+
+    /**
+     * @param MaxCourse the MaxCourse to set
+     */
+    public void setMaxCourse(int MaxCourse) {
+        this.MaxCourse = MaxCourse;
     }
 }
      
