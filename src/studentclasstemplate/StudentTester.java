@@ -30,5 +30,7 @@ public class StudentTester {
         System.out.println(list[i].getName()+ list[i].getStudent_id());
         }
         
+        
+        System.out.print("Get out Son of A Gun");
     }
 }
